@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QSharpApplication1", "QSharpApplication1\QSharpApplication1.csproj", "{5E722DA5-BC87-4AE2-9459-EAFC70985980}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QSharpApplication1", "QSharpApplication1\QSharpApplication1.csproj", "{5E722DA5-BC87-4AE2-9459-EAFC70985980}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RandomNumberGenerator", "RandomNumberGenerator\RandomNumberGenerator.csproj", "{B0C17819-209E-4071-A969-145A358AEE9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{5E722DA5-BC87-4AE2-9459-EAFC70985980}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E722DA5-BC87-4AE2-9459-EAFC70985980}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E722DA5-BC87-4AE2-9459-EAFC70985980}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0C17819-209E-4071-A969-145A358AEE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0C17819-209E-4071-A969-145A358AEE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0C17819-209E-4071-A969-145A358AEE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0C17819-209E-4071-A969-145A358AEE9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
