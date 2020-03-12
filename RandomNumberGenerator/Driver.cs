@@ -10,7 +10,7 @@ namespace Quantum.RandomNumberGenerator
         {
             using (var qsim = new QuantumSimulator())
             {
-                HelloQ.Run(qsim).Wait();
+                
             }
         }
     }
