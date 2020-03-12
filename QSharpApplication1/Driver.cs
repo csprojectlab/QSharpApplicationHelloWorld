@@ -1,7 +1,9 @@
 ﻿using System;
 using Microsoft.Quantum.Simulation.Core;
 using Microsoft.Quantum.Simulation.Simulators;
-
+/**
+ *  Basic Hello World program in Quantum Computing
+ */
 namespace Quantum.QSharpApplication1
 {
     class Driver
