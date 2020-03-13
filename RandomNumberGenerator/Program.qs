@@ -1,14 +1,16 @@
-﻿namespace Quantum.RandomNumberGenerator {
-
-    open Microsoft.Quantum.Canon;
+﻿namespace Quantum.QSharpApplication1 {
     open Microsoft.Quantum.Intrinsic;
 
-    operation QuantumRandomNumberGenerator() : Result {
-        using (q = Qubit()) {   // Allocate a qubit
-		    H(q);                   // Put the qubit in superposition (Hadamard Transformation). 50 % chance of being 0 or 1
-            let result = M(q);      // Measure the qubit value
+    operation SampleQuantumRandomNumberGenerator() : Result {
+        using (q = Qubit())  { // Allocate a qubit.
+            H(q);             // Put the qubit to superposition. It now has a 50% chance of being 0 or 1.
+            let r = M(q);     // Measure the qubit value.
             Reset(q);
-            return result;
-		}
-	}
+            return r;
+        }
+    }
+
+    operation HelloQ () : Unit {
+        Message("Hello quantum world! from Aridaman");
+    }
 }
